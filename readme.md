@@ -1,14 +1,14 @@
-#Building an Exchange Coding Test
+# Building an Exchange Coding Test
 This test is meant to assess your thinking and problem solving skills. You will be building a small web app using docker and python and some libraries that you likely have not used before. Feel free to use google to gain a better understanding of the tooling but please do not have others help you with the project.
 
 Before you submit the project, please test it inside the docker container and make sure it works.
 
-##Setup
+## Setup
 2) If you would like to develop locally rather than use the docker container for development you will need to setup a python 3.6 environment (https://www.python.org/downloads/release/python-360/).
 3) **Optional:** If you would like to use an IDE for python we recommend pycharm (https://www.jetbrains.com/pycharm/download/)
 4) **Optional:** If you would like to use a tool other than cURL for testing your API we recommend Postman (https://www.getpostman.com/apps)
 
-##Hello World Health Check
+## Hello World Health Check
 Included with this readme are a few base files to help you get started:
  - app.py - This is the entry point for your service and what will drive route configuration
  - health_check.py - A simple health check resource to make sure the service is running as expected
@@ -22,12 +22,12 @@ The last line should output something like: "Successfully build <image_id>". If 
 
 Once you have an image_id you can run `docker run -d -p 8080:8080 <image_id>`. If the container starts up successfully you should be able to go to 127.0.0.1:8080/health
 
-####Questions:
+#### Questions:
 
 2) In the /health endpoint there is a hostname attribute. What does that hostname represent?
 
 
-##Matching Engine
+## Matching Engine
 Now that you have a working health check, it's time to build on top of that.
 
 **NOTE:** Be sure to use the correct HTTP verbs for each endpoint
