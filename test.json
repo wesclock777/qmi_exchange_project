@@ -1,0 +1,14 @@
+{
+    "data":
+    {
+        "traderId": "trader1",
+        "orders":
+        [
+            {
+                "symbol": "APPL",
+                "quantity": 100,
+                "orderType": "buy"
+            }
+        ]
+    }
+}
